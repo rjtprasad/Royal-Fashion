@@ -3,19 +3,18 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Footer } from './components/Footer/Footer'
 import { Category } from './pages/Category/Category'
 import { Product } from './pages/Product/Product'
+import "./app.scss"
 
 function App() {
 
   const Layout = () => {
-
     return (
       <div className="app">
         <Navbar/>
-        <Outlet/>
+          <Outlet/>
         <Footer/>
       </div>
     )
-    
   }
   
   const router = createBrowserRouter(
