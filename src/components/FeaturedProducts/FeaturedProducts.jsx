@@ -40,8 +40,8 @@ export const FeaturedProducts = ({type}) => {
         oldPrice: 19,
         price: 12
     },
-    
-    ]
+]
+
   return (
     <div className="featuredProducts">
         <div className="top">
